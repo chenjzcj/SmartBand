@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#00BBC1"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_back"/>
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="久坐提醒"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_btn_setting"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_sedentary_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_rl_bg"
+        android:descendantFocusability="blocksDescendants"
+        android:padding="13dp">
+
+        <com.mtk.view.togglebutton.ToggleButton
+            android:id="@+id/tooggle_sedentary_reminder"
+            style="@style/OtherSettingsToggleStyle"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            toggle:borderWidth="0.1dp"
+            toggle:onColor="#48A8F2"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="久坐提醒"
+            android:textColor="#272636"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_mins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_rl_bg"
+                android:padding="10dp"
+                android:text="取消"/>
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_rl_bg"
+                android:padding="10dp"
+                android:text="确定"/>
+
+        </LinearLayout>
+
+        <com.mtk.band.view.wheel.WheelView
+            android:id="@+id/jiuzuo_mins"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_above="@id/ll_buttons"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/selector_rl_bg"/>
+    </RelativeLayout>
+
+</LinearLayout>

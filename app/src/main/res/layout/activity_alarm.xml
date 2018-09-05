@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_setting"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.mtk.band.SettingActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#00BBC1"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_back"/>
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="智能闹钟"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_btn_setting"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_alarmlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_title"
+        android:divider="@color/light_gray"
+        android:dividerHeight="1dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_edit_alarm_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ebebeb"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ib_mon"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/selector_week_bg"
+                    android:maxLines="1"
+                    android:text="@string/common_week_1"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLines="1">
+
+                <Button
+                    android:id="@+id/ib_tue"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/selector_week_bg"
+                    android:maxLines="1"
+                    android:text="@string/common_week_2"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ib_wed"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/selector_week_bg"
+                    android:maxLines="1"
+                    android:text="@string/common_week_3"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ib_thur"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/selector_week_bg"
+                    android:singleLine="true"
+                    android:text="@string/common_week_4"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ib_fri"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/selector_week_bg"
+                    android:singleLine="true"
+                    android:text="@string/common_week_5"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ib_sat"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/selector_week_bg"
+                    android:singleLine="true"
+                    android:text="@string/common_week_6"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ib_sun"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/selector_week_bg"
+                    android:singleLine="true"
+                    android:text="@string/common_week_0"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ebebeb"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="120dp"
+                android:layout_marginStart="120dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.mtk.band.view.wheel.WheelView
+                    android:id="@+id/alarm_hour"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"/>
+
+                <com.mtk.band.view.wheel.WheelView
+                    android:id="@+id/alarm_min"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1.0"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="#ebebeb"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ebebeb"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <include
+            layout="@layout/layout_confirm_common_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

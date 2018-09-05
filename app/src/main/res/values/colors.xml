@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#fff4f4f9</color>
+    <color name="head_txt">#0e5986</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="black_1">#424240</color>
+    <color name="black">#FF000000</color>
+    <color name="head_text">#0e5986</color>
+    <color name="mazarine">#2C5DD8</color>
+    <color name="baby_blue">#5FC2FF</color>
+    <!-- 二维码扫描颜色值 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <!--  -->
+    <color name="msg_dialog_btn_color">#023c69</color>
+    <!-- 加载进度条颜色配置 -->
+    <integer-array name="colors">
+        <item>@color/holo_blue_dark</item>
+        <item>@color/holo_yellow_dark</item>
+        <item>@color/holo_green_dark</item>
+        <item>@color/holo_purple_dark</item>
+        <item>@color/holo_red_dark</item>
+    </integer-array>
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#215496</color>
+    <color name="gplus_color_2">#5ACDFA</color>
+    <!--  -->
+    <color name="holo_blue_dark">#0099cc</color>
+    <color name="holo_yellow_dark">#ff8800</color>
+    <color name="holo_green_dark">#669900</color>
+    <color name="holo_purple_dark">#9933cc</color>
+    <color name="holo_red_dark">#cc0000</color>
+    <!--  -->
+    <color name="round_red">#FF00FF</color>
+    <color name="round_blue">#00FFFF</color>
+    <color name="alpha">#00000000</color>
+    <!-- 空调的模式色值 -->
+    <color name="air_s0">#ff999999</color>
+    <color name="air_s1">#ff0db26d</color>
+    <color name="air_s2">#ffe44443</color>
+    <color name="air_s3">#ff00a0e9</color>
+    <!-- 遥控器 -->
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="item_common_pressed">#ffe0e0e0</color>
+    <color name="item_common_selected">#ff5e5e5e</color>
+    <color name="item_footer">#ffe0e0e0</color>
+    <color name="background_common">#fff2f1f0</color>
+    <color name="background_player">#fffafaf9</color>
+    <color name="background_playlist">#ffe7e5e2</color>
+    <color name="background_menu_divider">#ffd0d0d0</color>
+    <color name="background_menu">#ffe0e0e0</color>
+    <color name="font_default">#ff222222</color>
+    <color name="font_light">#ff777777</color>
+    <color name="orange">#ffffbb33</color>
+    <color name="darkorange">#ffff8800</color>
+    <color name="darkerorange">#ffff7200</color>
+    <color name="white_dialog">#00ffffff</color>
+    <color name="transparent_gray">#88000000</color>
+    <color name="transparent_white">#dcfafafa</color>
+    <color name="action_bar_title">#ffffffff</color>
+    <color name="darkgrey">#ffa0a0a0</color>
+    <color name="background_remote">#ff323232</color>
+    <color name="black1">#ff0f0f0f</color>
+    <color name="black2">#ff222222</color>
+    <color name="black3">#ff181818</color>
+    <color name="grey1">#ff393939</color>
+    <color name="grey2">#ffd0d0d0</color>
+    <color name="grey3">#ffc0c0c0</color>
+    <color name="device_text_normal">#ff455067</color>
+    <color name="device_text_press">#ffeff9fd</color>
+    <color name="device_list1">#ffd0d3d9</color>
+    <color name="device_list2">#ffc1c5cc</color>
+    <color name="device_text_3">#ff8f9ba7</color>
+    <color name="none_color">#00000000</color>
+    <color name="netconfigure_tabselected_color">#ff8b8b99</color>
+    <color name="on_text">#ffffffff</color>
+    <color name="off_text">#ff5b5b5b</color>
+    <color name="timer_notimer">#ff656e80</color>
+    <color name="timerlist_light">#ffffffff</color>
+    <color name="timerlist_dark">#ff8d99b0</color>
+    <color name="timerlist_time">#ff455067</color>
+    <color name="blue">#ff00a0e9</color>
+    <color name="scene_blue">#ff0099cc</color>
+    <color name="scene_light_gray">#ffcccccc</color>
+    <color name="scene_dark_gray">#ff666666</color>
+    <color name="scene_gray">#ff999999</color>
+    <color name="air_bg">#ff333333</color>
+    <color name="device_button_font">#ff8b8b89</color>
+    <color name="device_online_font">#ff4fc4ae</color>
+    <color name="electrict_power_text">#ffabafb8</color>
+    <color name="electrict_power_bg">#fff1f1f1</color>
+    <color name="ddinfo_bg">#fff7f8f8</color>
+    <color name="transparent_background">#99000000</color>
+    <color name="faq_title_dark">#ffd0d3d9</color>
+    <color name="faq_title_light">#ffc1c5cc</color>
+    <color name="roundprogresscolor_default">#ffd3d3d3</color>
+    <color name="roundprogresscolor">#ff009de6</color>
+    <color name="listview_divid_line_color">#494F67</color>
+
+    <!-- 计步 -->
+    <color name="countstpes_bg">#F0F0F0</color>
+    <!-- linearlayout点击效果 -->
+    <color name="linearlayout_normal">#F0F0F0</color>
+    <color name="linearlayout_pressed">#FF9900</color>
+    <!-- 主页color -->
+    <color name="mainactivitybgcolor">#262628</color>
+    <color name="linearLayoutbgcolor">#2A292E</color>
+    <color name="gray3">#6D6E72</color>
+    <!-- #A7AAB1 -->
+    <color name="smalltextcolor">#A7AAB1</color>
+    <color name="tab_text_color">#0d527f</color>
+    <color name="text_dark">#af000000</color>
+    <color name="text_light">#3f000000</color>
+    <color name="light_gray">#1a000000</color>
+    <color name="ui_dialog_list_text">#5E5E5E</color>
+    <color name="bg_touch">@color/lightest_gray</color>
+    <color name="lightest_gray">#0a000000</color>
+    <color name="list_divider_color">#DADADA</color>
+    <color name="ui_dialog_divider">@color/list_divider_color</color>
+    <color name="titlebar_bg">#F0F0F0</color>
+    <color name="title_bar_text_color">@color/text_dark</color>
+    <color name="text_grey">#ff333333</color>
+    <color name="titlebar_blue">#48A8F2</color>
+
+    <color name="gray">#ece6e6</color>
+    <color name="main_blue">#1F92FD</color>
+    <color name="main_textcolor">#292c30</color>
+</resources>

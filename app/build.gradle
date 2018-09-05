@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+
+def keystorePropertiesFile = rootProject.file("app/keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+android {
+    signingConfigs {
+        SmartBand {
+            try {
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+            } catch (ex) {
+                throw new InvalidUserDataException("You should define KEYSTORE_PASSWORD and KEY_PASSWORD in keystore.properties." + ex)
+            }
+        }
+    }
+    compileSdkVersion 28
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.jiaqi.smartband"
+        minSdkVersion 14
+        //System.loadLibrary(LIB_NAME);报错解决方法
+        //http://blog.csdn.net/liyx2018/article/details/51516513
+        targetSdkVersion 28
+        versionCode 6
+        versionName "1.0.0"
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.SmartBand
+        }
+    }
+    dexOptions {
+        //incremental true
+    }
+
+    //https://developer.android.com/studio/build/gradle-plugin-3-0-0-migration?utm_source=android-studio#variant_aware
+    flavorDimensions "color"
+
+    productFlavors {
+        应用宝 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "应用宝_U_pure", JIGUANG_CHANNEL_VALUE: "应用宝_J_pure"]
+        }
+        JIAQI {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "JIAQI_U_pure", JIGUANG_CHANNEL_VALUE: "JIAQI_J_pure"]
+        }
+    }
+}
+//MPAndroidChart的使用
+//http://blog.csdn.net/u014136472/article/details/50273309
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:support-v4:21.0.3'
+    implementation 'com.android.support:appcompat-v7:21.0.3'
+    implementation 'com.umeng.analytics:analytics:6.1.4'
+    implementation 'com.tencent.bugly:crashreport:2.6.6.1'
+    implementation 'com.tencent.bugly:nativecrashreport:3.3.1'
+    implementation 'org.xutils:xutils:3.5.0'
+    implementation 'de.greenrobot:eventbus:2.4.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v2.1.6'
+}
+

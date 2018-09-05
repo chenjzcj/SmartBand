@@ -1,0 +1,11 @@
+http://jingyan.baidu.com/article/a24b33cd7086d719fe002b8c.html
+
+storePassword : jiaqi@2016
+
+keyAlias : 	smartbandkey
+
+keyPassword : 	jiaqi@@2016
+
+Validity(years) : 100
+
+Country Code :   86

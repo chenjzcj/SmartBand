@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/package_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/package_icon"
+        android:layout_width="@dimen/activity_layout_width_32"
+        android:layout_height="@dimen/activity_layout_height_80"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/activity_layout_marginLeft_6"
+        android:layout_marginRight="@dimen/activity_layout_marginRight_6"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/package_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/activity_layout_marginRight_6"
+        android:layout_weight="1"
+        android:minHeight="@dimen/activity_layout_minHeight_32"
+        android:textSize="@dimen/activity_report_textsize_20"
+        android:textColor="@color/white"
+        tools:ignore="SelectableText,InefficientWeight" />
+
+    <CheckBox
+        android:id="@+id/package_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="@dimen/activity_layout_marginRight_6"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</LinearLayout>

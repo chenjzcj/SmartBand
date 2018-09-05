@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="13dp"
+    android:paddingTop="13dp">
+
+    <com.mtk.view.togglebutton.ToggleButton
+        android:id="@+id/tooggle_alarm_state"
+        style="@style/OtherSettingsToggleStyle"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        toggle:borderWidth="0.1dp"
+        toggle:onColor="#48A8F2"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_alarmtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:text="07:00"
+            android:textColor="#272636"
+            android:textSize="28sp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_alarmtime">
+
+            <Button
+                android:id="@+id/ib_mon"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/selector_week_bg"
+                android:text="一"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/ib_tue"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/selector_week_bg"
+                android:text="二"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/ib_wed"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/selector_week_bg"
+                android:text="三"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/ib_thur"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/selector_week_bg"
+                android:text="四"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/ib_fri"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/selector_week_bg"
+                android:text="五"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/ib_sat"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/selector_week_bg"
+                android:text="六"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/ib_sun"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/selector_week_bg"
+                android:text="日"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

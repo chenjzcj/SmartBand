@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/main_blue">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/shouhuan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/bracelet"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+
+        <include
+            layout="@layout/line_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_sport"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/main_blue"
+        android:orientation="vertical"
+        android:weightSum="8">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+
+            <ImageView
+                android:id="@+id/iv_ring"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ring_bg"/>
+
+            <TextView
+                android:id="@+id/tv_sport2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:drawableTop="@mipmap/bushu_large"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:textSize="35sp"/>
+
+            <TextView
+                android:id="@+id/tv_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_sport2"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_sport1"
+                    style="@style/sport_text_style"
+                    android:drawableTop="@mipmap/gongli"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_sport3"
+                    style="@style/sport_text_style"
+                    android:drawableTop="@mipmap/daka"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_find"
+                style="@style/menu_text_style"
+                android:drawableTop="@mipmap/zhaoshouhuan"
+                android:text="@string/find_bracelet"/>
+
+            <include layout="@layout/line_vertical"/>
+
+            <TextView
+                android:id="@+id/tv_jiuzuo"
+                style="@style/menu_text_style"
+                android:drawableTop="@mipmap/jiuzuo"
+                android:text="@string/jiuzuo"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/line_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_shuimian"
+                style="@style/menu_text_style"
+                android:drawableTop="@mipmap/shuimian"
+                android:text="@string/shuimian"/>
+
+            <include layout="@layout/line_vertical"/>
+
+            <TextView
+                android:id="@+id/tv_set"
+                style="@style/menu_text_style"
+                android:drawableTop="@mipmap/shezhi"
+                android:text="@string/set"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

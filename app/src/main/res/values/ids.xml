@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="item_icon" type="id">false</item>
+    <item name="item_tv" type="id">false</item>
+    <item name="main_top" type="id">false</item>
+    <item name="expand_btn" type="id">false</item>
+    <item name="forward_btn" type="id">false</item>
+    <item name="return_btn" type="id">false</item>
+    <item name="img_tab_now" type="id">false</item>
+	<item name="view_pager" type="id">false</item>
+	<item name="report_lv" type="id">false</item>
+	<item name="report_icon" type="id">false</item>
+	<item name="main_icon" type="id">false</item>
+	<item name="main_lv" type="id">false</item>
+	<item name="common_banner" type="id">false</item>
+	<item name="notice_service" type="id">false</item>
+	<item name="select_notice_app" type="id">false</item>
+	<item name="block_list" type="id">false</item>
+	<item name="checkbox_notice" type="id">false</item>
+	<item name="checkbox_connection_state" type="id">false</item>
+	<item name="checkbox_send_notice" type="id">false</item>
+</resources>

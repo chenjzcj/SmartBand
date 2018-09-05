@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Label -->
+    <string name="app_name">"智能手环"</string>
+    <string name="setting_activity">"设置"</string>
+    <string name="select_notifi_activity">"选择推送应用"</string>
+    <string name="select_blocks_activity">"选择解除禁止列表"</string>
+    <!-- SettingActivity -->
+    <string name="app_info_preference_sumarry">"当蓝牙拨号器与您的设备连接后在这里进行一些通知设置便可推送新通知到您的蓝牙拨号器中。"</string>
+    <string name="phone_preference_category">"电话服务"</string>
+    <string name="sms_preference_title">"短信服务"</string>
+    <string name="sms_preference_summary">"推送短信"</string>
+    <string name="call_preference_title">"来电服务"</string>
+    <string name="call_preference_summary">"推送未接来电"</string>
+    <string name="notification_preference_category">"应用通知"</string>
+    <string name="notification_preference_title">"通知服务"</string>
+    <string name="notification_preference_summary">"推送应用通知"</string>
+    <string name="accessibility_preference_title">"辅助功能设置"</string>
+    <string name="accessibility_preference_summary">"使用蓝牙通知功能需在辅助功能中激活服务"</string>
+    <string name="select_notifi_preference_title">"通知应用"</string>
+    <string name="select_notifi_preference_summary">"选择推送应用"</string>
+    <string name="select_blocks_preference_summary">"选择开启推送的应用"</string>
+    <string name="select_blocks_preference_title">"禁止列表"</string>
+    <string name="version_preference_category">"版本"</string>
+    <string name="current_version_preference_title">"当前版本"</string>
+    <string name="option_preference_category">"其他"</string>
+    <string name="show_connect_status_preference_title">"显示连接状态"</string>
+    <string name="show_connect_status_preference_summary">"蓝牙通知连接后在状态栏显示连接状态"</string>
+    <string name="always_forward_preference_title">"始终发送通知"</string>
+    <string name="always_forward_preference_summary">"总是推送通知或仅屏幕锁定时推送"</string>
+    <string name="accessibility_prompt_title">"启用辅助功能"</string>
+    <string name="accessibility_prompt_content">"蓝牙通知需要辅助功能来接收通知，点击确定设置辅助功能。"</string>
+    <string name="maprequest_prompt_title">"信息访问请求"</string>
+    <string name="maprequest_prompt_content">"蓝牙通知请求访问您的信息协议，要授予访问权限吗？"</string>
+    <string name="ok">"确定"</string>
+    <string name="cancel">"取消"</string>
+    <string name="progress_dialog_title">"载入中"</string>
+    <string name="progress_dialog_message">"请等待&#8230;"</string>
+    <string name="save_successfully">"保存成功"</string>
+
+    <!-- SelectNotifiActivity -->
+    <string name="personal_apps_title">"个人应用"</string>
+    <string name="system_apps_title">"系统应用"</string>
+    <string name="button_save">"保存"</string>
+    <string name="button_select_all">"全选"</string>
+    <string name="button_deselect_all">"全不选"</string>
+
+    <!-- SelectBlocksActivity -->
+    <string name="blocks_apps_title">"被禁止应用列表"</string>
+    <string name="button_unblock">"开启"</string>
+    <string name="save_unblock_successfully">"保存禁止列表成功"</string>
+
+    <!-- Service -->
+    <string name="notification_ticker_text">"蓝牙通知已连接"</string>
+    <string name="notification_title">"蓝牙通知已连接"</string>
+    <string name="notification_content">"点击设置蓝牙通知"</string>
+    <string name="mapnotification_ticker_text">"信息访问请求"</string>
+    <string name="mapnotification_title">"信息访问请求"</string>
+    <string name="mapnotification_content">"蓝牙通知需要您的信息访问协议，点击来设置"</string>
+    <string name="missed_call">"未接来电"</string>
+    <string name="accessibility_description">"使用蓝牙通知功能需在辅助功能中激活服务"</string>
+    <string name="batterylow">"电池电量低"</string>
+    <string name="pleaseconnectcharger">"电池电量低,请连接充电器。"</string>
+    <string name="sms_send">"短信发送"</string>
+    <string name="sms_send_success">"短信发送成功"</string>
+    <string name="sms_send_fail">"短信发送失败"</string>
+    <!-- Exit -->
+    <string name="exit">"退出"</string>
+    <string name="dailog_title">"退出后，将不会推送新通知到远端设备，\n确定要退出？"</string>
+
+    <!-- 改版 -->
+    <string name="report_count_steps">"运动计步"</string>
+    <string name="sleep_survey">"睡眠监测"</string>
+    <string name="heart_rate_survey">"心率监测"</string>
+    <string name="music_player">"音乐播放"</string>
+    <string name="smart_push">"智能推送"</string>
+    <string name="smart_push_msg">"智能推送短信"</string>
+    <string name="device_config">"设备配置"</string>
+    <string name="ble_activate">"蓝牙配对"</string>
+    <string name="app_notice_push_setting">"应用推送"</string>
+    <string name="side_function_setting">"设置"</string>
+    <string name="version_updates">"版本更新"</string>
+    <string name="find_watch">"找手环"</string>
+    <string name="contentDescription">contentDescription</string>
+    <!-- 表格 -->
+    <string name="add_values">Add values to the chart</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="add">Add</string>
+    <string name="new_series">New series</string>
+    <!-- bluetooth open and close tips -->
+    <string name="bluetooth_has_been_open">"蓝牙已打开"</string>
+    <string name="do_not_allow_the_bluetooth">"不允许打开蓝牙"</string>
+    <string name="bluetooth_has_been_closed">"蓝牙已关闭"</string>
+    <string name="again_according_to_exit_the_program">"再按一次退出程序！"</string>
+    <!-- 版本更新 -->
+    <string name="version_upgrade">"版本信息"</string>
+    <string name="is_download_the_update">"正在更新下载"</string>
+    <string name="download_the_new_version_is_failure">"下载新版本失败"</string>
+    <string name="monitoring_to_the_latest_version">"检测到最新版本，请及时更新!"</string>
+    <string name="is_the_latest_version_do_not_need_to_update">"已经是最新版本，不需要更新"</string>
+    <string name="failed_to_get_server_updates">"获取服务器信息失败！"</string>
+    <string name="download_failed">" 下载apk失败!"</string>
+    <string name="no_found_drivers">"本机没有找到蓝牙硬件或驱动！"</string>
+
+    <!-- 手机版本检测 -->
+    <string name="check_phone_version">"您的手机版本为Android5.0以上，不需要打开蓝牙通知！"</string>
+    <string name="back">"返回"</string>
+
+    <!-- pullrefreshliview -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">时间:</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开加载更多</string>
+    <string name="dialog_tiltle_download_tips">"下载提示"</string>
+    <string name="dialog_content_download_tips">"你当前是在2G/3G/4G网络环境下，是否继续下载?"</string>
+    <string name="sd_card_does_not_exist">"SD卡不存在"</string>
+    <string name="download">"下载"</string>
+    <string name="recommended_application">"应用推荐"</string>
+    <string name="dialog_confirm">"确定"</string>
+    <string name="dialog_cancel">"取消"</string>
+    <!--0608-->
+    <string name="loading">Loading...</string>
+    <!--设置相关-->
+    <string name="settings">设置</string>
+    <string name="settings_sms">短信服务</string>
+    <string name="settings_sms_describe">将短信推送到手表</string>
+    <string name="settings_call">来电服务</string>
+    <string name="settings_call_describe">未接来电推送到手表</string>
+    <string name="settings_notification_ctl">通知栏开关</string>
+    <string name="settings_notification_ctl_describe">将通知栏信息推送到手表</string>
+    <string name="settings_app_mannager">应用开关</string>
+    <string name="settings_person_info">个人信息</string>
+    <string name="settings_jiuzuo">久坐提醒</string>
+    <string name="settings_update_version">版本更新</string>
+    <!--主页-->
+    <string name="jing_pin">精品推荐</string>
+    <string name="about">关于</string>
+    <string name="sportstep">运动计步</string>
+    <string name="sleep">睡眠监测</string>
+    <string name="alarm">智能闹钟</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">未连接</string>
+    <string name="version_info">V%1$s(%2$s)</string>
+
+    <string name="find_bracelet">找手环</string>
+    <string name="jiuzuo">久坐提醒</string>
+    <string name="shuimian">睡眠监测</string>
+    <string name="set">设置</string>
+    <string name="bracelet">华为手环</string>
+    <string name="distance">%1$s公里</string>
+    <string name="calories">%1$s大卡</string>
+    <string name="steps">%1$d步</string>
+    <string name="distance_unit">公里</string>
+    <string name="calories_unit">大卡</string>
+    <string name="steps_unit">步</string>
+    <string name="step">步数</string>
+    <string name="shuim">睡眠监测</string>
+    <string name="juli">距离</string>
+    <string name="calorie">卡路里消耗</string>
+    <string name="common_week_s">周</string>
+    <string name="common_week_0">日</string>
+    <string name="common_week_1">一</string>
+    <string name="common_week_2">二</string>
+    <string name="common_week_3">三</string>
+    <string name="common_week_4">四</string>
+    <string name="common_week_5">五</string>
+    <string name="common_week_6">六</string>
+</resources>

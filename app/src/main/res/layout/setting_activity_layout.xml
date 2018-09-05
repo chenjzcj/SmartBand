@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mtk.activity.AppInfoPreference
+        android:key="app_info"
+        app:image="@drawable/ic_app_info"/>
+    <!-- Notification Service -->
+
+    <PreferenceCategory android:title="@string/notification_preference_category">
+
+        <Preference
+            android:key="show_accessibility_menu_preference"
+            android:summary="@string/accessibility_preference_summary"
+            android:title="@string/accessibility_preference_title"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_notifi_service_preference"
+            android:summary="@string/notification_preference_summary"
+            android:title="@string/notification_preference_title"/>
+
+        <Preference
+            android:key="select_notifi_preference"
+            android:summary="@string/select_notifi_preference_summary"
+            android:title="@string/select_notifi_preference_title"/>
+
+        <Preference
+            android:key="select_blocks_preference"
+            android:summary="@string/select_blocks_preference_summary"
+            android:title="@string/select_blocks_preference_title"/>
+
+    </PreferenceCategory>
+
+    <!-- Phone Service    -->
+
+    <PreferenceCategory android:title="@string/phone_preference_category">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_sms_service_preference"
+            android:summary="@string/sms_preference_summary"
+            android:title="@string/sms_preference_title"
+            />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_call_service_preference"
+            android:summary="@string/call_preference_summary"
+            android:title="@string/call_preference_title"/>
+
+    </PreferenceCategory>
+
+    <!-- Options -->
+
+    <PreferenceCategory android:title="@string/option_preference_category">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_connection_status_preference"
+            android:summary="@string/show_connect_status_preference_summary"
+            android:title="@string/show_connect_status_preference_title"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="always_forward_preference"
+            android:summary="@string/always_forward_preference_summary"
+            android:title="@string/always_forward_preference_title"/>
+    </PreferenceCategory>
+
+    <!-- Version info -->
+
+    <PreferenceCategory android:title="@string/version_preference_category">
+
+        <Preference
+            android:key="current_version_preference"
+            android:title="@string/current_version_preference_title"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

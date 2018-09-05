@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_items">
+        <item>@string/find_watch</item>
+        <item>@string/settings_app_mannager</item>
+        <item>@string/setting_activity</item>
+        <item>@string/ble_activate</item>
+        <item>@string/sportstep</item>
+        <item>@string/sleep</item>
+        <item>@string/alarm</item>
+        <item>@string/about</item>
+    </string-array>
+</resources>

@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="item_height">60dp</dimen>
+    <dimen name="icon_height">58dp</dimen>
+    <dimen name="item_height_960x540">80dp</dimen>
+    <dimen name="icon_height_960x540">78dp</dimen>
+    <dimen name="img_margintop">60dp</dimen>
+    <dimen name="fragment_textSize">20sp</dimen>
+    <dimen name="fragment_textSize_800x480">15sp</dimen>
+    <dimen name="fragment_textSize_960x540">17sp</dimen>
+    <dimen name="activity_layout_height_15">15dip</dimen>
+    <dimen name="activity_layout_width_15">15dip</dimen>
+    <dimen name="activity_layout_marginRight_30">30dip</dimen>
+    <dimen name="activity_layout_width_32">32dip</dimen>
+    <dimen name="activity_layout_height_80">80dip</dimen>
+    <dimen name="activity_layout_marginLeft_6">6dip</dimen>
+    <dimen name="activity_layout_marginRight_6">6dip</dimen>
+    <dimen name="activity_layout_minHeight_32">32dip</dimen>
+    <dimen name="activity_report_textsize_20">20.0sp</dimen>
+    <dimen name="activity_report_paddingLeft_15">15dip</dimen>
+    <dimen name="activity_report_paddingRight_15">15dip</dimen>
+    <dimen name="activity_report_paddingTop_8">8dip</dimen>
+    <dimen name="activity_report_paddingBottom_8">8dip</dimen>
+    <dimen name="activity_report_paddingTop_6">6dip</dimen>
+    <dimen name="activity_report_padding_8">8dip</dimen>
+    <dimen name="activity_report_textsize_16">16.0sp</dimen>
+    <dimen name="activity_layout_marginRight_10">10dip</dimen>
+    <dimen name="activity_layout_marginLeft_10">10dip</dimen>
+    <dimen name="activity_layout_marginLeft_15">15dip</dimen>
+    <dimen name="activity_layout_marginLeft_30">30dip</dimen>
+    <dimen name="activity_layout_marginTop_10">10dip</dimen>
+    <dimen name="activity_report_textsize_25">25.0sp</dimen>
+    <dimen name="activity_layout_marginTop_5">5dip</dimen>
+    <dimen name="activity_layout_height_1">1dip</dimen>
+    <dimen name="activity_report_textsize_15">15.0sp</dimen>
+    <dimen name="activity_layout_marginTop_180">180dip</dimen>
+    <dimen name="activity_layout_marginRight_26">26dip</dimen>
+    <dimen name="activity_layout_marginTop_12">12dip</dimen>
+    <dimen name="activity_layout_marginLeft_32">32dip</dimen>
+    <dimen name="activity_report_textsize_12">12.0sp</dimen>
+    <!-- 选中切换效果 -->
+    <dimen name="rdo1">0dp</dimen>
+    <dimen name="rdo2">70dp</dimen>
+    <dimen name="rdo3">140dp</dimen>
+    <dimen name="rdo4">210dp</dimen>
+    <dimen name="rdo5">280dp</dimen>
+    <dimen name="global_dialog_padding">16.0dip</dimen>
+    <dimen name="text_large_primary_size">16.0dip</dimen>
+    <dimen name="text_large_secondary_size">12.0dip</dimen>
+    <dimen name="dialog_margin">7.0dip</dimen>
+    <dimen name="text_regular_primary_size">14.0dip</dimen>
+    <!--gridView上下间距-->
+    <dimen name="gridview_padding_bottom">43.0dip</dimen>
+    <dimen name="gridview_padding_top">43.0dip</dimen>
+    <!--pulltofresh-->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    <item name="gridview" type="id"/>
+    <item name="webview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

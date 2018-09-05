@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/taobao_xp_example_feeds_icon" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/umeng_xp_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/icon"
+        android:ellipsize="end"
+        android:focusable="true"
+        android:lines="1"
+        android:text="洛丽塔咖啡馆"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/umeng_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/umeng_xp_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/icon"
+        android:ellipsize="end"
+        android:focusable="true"
+        android:lines="1"
+        android:text="17分钟前"
+        android:textColor="#e67b09"
+        android:textSize="14sp" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/umeng_xp_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/umeng_from"
+        android:ellipsize="end"
+        android:focusable="true"
+        android:lines="1"
+        android:text="来自：新浪微博"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/content_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="#lolita•心情#每个顾客都在找寻自己最爱的咖啡馆，有的是寻香而来，有的是寻人而来。。在有限的生命里感受无限的美好[微风][微风][微风][太阳]当然，我喜欢的咖啡馆是一定要咖啡专业好喝，感受到经营者的理念和人文气息，有书有花有沙发，有窗有景有故事[兔子][带着微博去旅行][爱你]—咖友摄于lolita"
+        android:textColor="#000"
+        android:textSize="16sp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_text"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:id="@+id/ll_connection_status"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="3"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5.0dip"
+            android:contentDescription="watch"
+            android:src="@drawable/ic_watch"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_connect_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tv_connect_status"
+                android:layout_marginBottom="18.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_connect_right_0"
+                    style="@style/connect_arrow_style"
+                    android:src="@drawable/selector_arrow_right"/>
+
+
+                <ImageView
+                    android:id="@+id/iv_connect_right_1"
+                    style="@style/connect_arrow_style"
+                    android:src="@drawable/selector_arrow_right"/>
+
+                <ImageView
+                    android:id="@+id/iv_connect_right_2"
+                    style="@style/connect_arrow_style"
+                    android:src="@drawable/selector_arrow_right"/>
+
+                <ImageView
+                    android:id="@+id/iv_connect_right_3"
+                    style="@style/connect_arrow_style"
+                    android:src="@drawable/selector_arrow_right"/>
+
+                <ImageView
+                    android:id="@+id/iv_connect_right_4"
+                    style="@style/connect_arrow_style"
+                    android:src="@drawable/selector_arrow_right"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_connect_status"
+                style="@style/textview_marquee_style"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:text="@string/disconnected"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:id="@+id/ll_connect_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_connect_status"
+                android:layout_marginTop="18.0dip"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_connect_left_0"
+                    style="@style/connect_arrow_style"
+                    android:src="@drawable/selector_arrow_left"/>
+
+
+                <ImageView
+                    android:id="@+id/iv_connect_left_1"
+                    style="@style/connect_arrow_style"
+                    android:src="@drawable/selector_arrow_left"/>
+
+                <ImageView
+                    android:id="@+id/iv_connect_left_2"
+                    style="@style/connect_arrow_style"
+                    android:src="@drawable/selector_arrow_left"/>
+
+                <ImageView
+                    android:id="@+id/iv_connect_left_3"
+                    style="@style/connect_arrow_style"
+                    android:src="@drawable/selector_arrow_left"/>
+
+                <ImageView
+                    android:id="@+id/iv_connect_left_4"
+                    style="@style/connect_arrow_style"
+                    android:src="@drawable/selector_arrow_left"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_phone"/>
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="7"
+        android:horizontalSpacing="0dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:verticalSpacing="0dp"/>
+</LinearLayout>
