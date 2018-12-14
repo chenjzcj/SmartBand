@@ -6,6 +6,6 @@
 /.idea/workspace.xml
 .DS_Store
 *.apk
-build/
-.idea/gradle.xml
+/build
+/.idea/gradle.xml
 
