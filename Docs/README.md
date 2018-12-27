@@ -9,9 +9,9 @@ SmartBand
 
 开发对接人员:
 
-项目: 韦工
-硬件: 王石
-UI:   陈艳
+项目: wei工
+硬件: wang石
+UI:   cheng艳
 
 
 UI如下:
